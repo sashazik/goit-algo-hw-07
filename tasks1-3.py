@@ -51,6 +51,6 @@ if __name__ == "__main__":
     root.insert(12)
     root.insert(25)
 
-    print(f"Максимальне значення: {get_max_value(root)}")  # Має бути 25
-    print(f"Мінімальне значення: {get_min_value(root)}")    # Має бути 5
+    print(f"Максимальне значення: {get_max_value(root)}")  # 25
+    print(f"Мінімальне значення: {get_min_value(root)}")    # 5
     print(f"Сума всіх значень: {get_sum(root)}")            # 15+10+20+5+12+25 = 87
